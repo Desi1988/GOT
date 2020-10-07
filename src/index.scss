@@ -1,0 +1,13 @@
+@import "~bootstrap/scss/bootstrap-grid";
+body {
+  margin: 0;
+  font-family: GOT;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+}
+ 
+@font-face {
+  font-family: 'GOT';
+  src: local('GOT'), url('shared/assets/fonts/GOT.ttf') format('truetype');
+}
